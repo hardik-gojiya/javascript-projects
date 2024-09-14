@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(243, 235, 237);
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#thumb{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background: gray;
+    object-fit: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="file"]{
+    display: none;
+}
+
+label[for="file"]{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
