@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="clock">
+        <div style="--clr: #ff3d58; --h: 74px" id="hour" class="hand">
+          <i></i>
+        </div>
+        <div style="--clr: #00a6ff; --h: 84px" id="min" class="hand">
+          <i></i>
+        </div>
+        <div style="--clr: #ffffff; --h: 94px" id="sec" class="hand">
+          <i></i>
+        </div>
+
+        <span style="--i: 1"><b>1</b></span>
+        <span style="--i: 2"><b>2</b></span>
+        <span style="--i: 3"><b>3</b></span>
+        <span style="--i: 4"><b>4</b></span>
+        <span style="--i: 5"><b>5</b></span>
+        <span style="--i: 6"><b>6</b></span>
+        <span style="--i: 7"><b>7</b></span>
+        <span style="--i: 8"><b>8</b></span>
+        <span style="--i: 9"><b>9</b></span>
+        <span style="--i: 10"><b>10</b></span>
+        <span style="--i: 11"><b>11</b></span>
+        <span style="--i: 12"><b>12</b></span>
+      </div>
+    </div>
+    <button class="share-page" onclick="sharePage()">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="35"
+        height="22"
+        viewBox="0 0 24 24"
+        style="fill: rgb(255, 255, 255); transform: msFilter"
+      >
+        <path
+          d="M3 12c0 1.654 1.346 3 3 3 .794 0 1.512-.315 2.049-.82l5.991 3.424c-.018.13-.04.26-.04.396 0 1.654 1.346 3 3 3s3-1.346 3-3-1.346-3-3-3c-.794 0-1.512.315-2.049.82L8.96 12.397c.018-.131.04-.261.04-.397s-.022-.266-.04-.397l5.991-3.423c.537.505 1.255.82 2.049.82 1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.346-3 3c0 .136.022.266.04.397L8.049 9.82A2.982 2.982 0 0 0 6 9c-1.654 0-3 1.346-3 3z"
+        ></path>
+      </svg>
+    </button>
+    <script src="script.js"></script>
+  </body>
+</html>
